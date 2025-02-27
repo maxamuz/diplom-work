@@ -117,7 +117,7 @@ body {
   color: #0f0d0e;
 }
 .logo-container {
-  background-image: url(/images/banner-bg.jpg);
+  background-image: url(../images/banner-bg.jpg);
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   width: 100%;
@@ -304,7 +304,7 @@ body {
   font-size: 12px;
 }
 .search-block-buttom {
-  background-image: url(/svg/search.svg);
+  background-image: url(../svg/search.svg);
   background-color: #b59f5b;
   background-repeat: no-repeat;
   width: 48px;
@@ -462,19 +462,19 @@ a.tems-title-list-item-link {
   padding-left: 4px;
 }
 .icon-dribbble {
-  background-image: url(/svg/001-dribbble.svg);
+  background-image: url(../svg/001-dribbble.svg);
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
 }
 .icon-pinterest {
-  background-image: url(/svg/002-pinterest.svg);
+  background-image: url(../svg/002-pinterest.svg);
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
 }
 .icon-tumblr {
-  background-image: url(/svg/003-tumblr.svg);
+  background-image: url(../svg/003-tumblr.svg);
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
@@ -495,7 +495,6 @@ a.tems-title-list-item-link {
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
-  /* position: absolute; */
   white-space: nowrap;
   width: 1px;
 }

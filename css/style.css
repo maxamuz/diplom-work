@@ -44,6 +44,7 @@ h6,
 p {
   font-size: inherit;
   font-weight: inherit;
+  color: #4c4b4b;
 }
 
 ul,
@@ -232,6 +233,11 @@ body {
 
 .trend_title {
   font-size: 20px;
+  color: #fff;
+}
+
+.trend_title:hover {
+  color: #b59f5b;
 }
 
 /* Стили блока контент*/

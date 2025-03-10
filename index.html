@@ -22,6 +22,9 @@
               <li><a class="nav-link" href="#">Темы</a></li>
               <li><a class="nav-link" href="#">Контакты</a></li>
             </ul>
+            <div class="nav-mobile">
+              <img src="./images/btn-menu.png" alt="" />
+            </div>
           </nav>
         </div>
         <h1 class="header-title">Блог о творчестве, спорте, и образе жизни</h1>
@@ -251,7 +254,7 @@
               </p>
             </div>
           </article>
-          <article class="article">
+          <!-- <article class="article">
             <img
               class="article-img"
               src="./images/last-post6.jpg"
@@ -303,7 +306,7 @@
                 опытов, вскроем физику, химию и микробиологию еды.
               </p>
             </div>
-          </article>
+          </article> -->
         </main>
         <aside class="aside-block">
           <section>
@@ -474,11 +477,12 @@
         <h2 class="products_title">Наши изделия</h2>
         <div class="products">
           <div class="product">
-            <img
-              src="./images/shop-item-desk1.jpg"
-              alt="Подушка с принтом"
-              class="product_bg"
-            />
+            <picture class="product_bg">
+              <source media="(max-width: 480px)" srcset="./images/shop-item-mobile1.jpg">
+              <source media="(max-width: 768px)" srcset="./images/shop-item-tablet1.jpg">
+              <source media="(min-width: 801px)" srcset="./images/shop-item-desk1.jpg">
+              <img src="./images/shop-item-desk1" alt="Подушка с принтом">
+            </picture>
             <div class="product_content">
               <h4 class="product_title">Подушки на диван</h4>
               <p class="product_text">
@@ -494,12 +498,13 @@
               </div>
             </div>
           </div>
-          <div class="product">
-            <img
-              src="./images/shop-item-desk2.jpg"
-              alt="Мягкая игрушка: заяц"
-              class="product_bg"
-            />
+           <div class="product">
+            <picture class="product_bg">
+              <source media="(max-width: 480px)" srcset="./images/shop-item-mobile2.jpg">
+              <source media="(max-width: 768px)" srcset="./images/shop-item-tablet2.jpg">
+              <source media="(min-width: 801px)" srcset="./images/shop-item-desk2.jpg">
+              <img src="./images/shop-item-desk2.jpg" alt="Мягкая игрушка: заяц">
+            </picture>
             <div class="product_content">
               <h4 class="product_title">Кукла «зайчик»</h4>
               <p class="product_text">
@@ -516,11 +521,12 @@
             </div>
           </div>
           <div class="product">
-            <img
-              src="./images/shop-item-desk3.jpg"
-              alt="Рамка для украшений"
-              class="product_bg"
-            />
+            <picture class="product_bg">
+              <source media="(max-width: 480px)" srcset="./images/shop-item-mobile3.jpg">
+              <source media="(max-width: 768px)" srcset="./images/shop-item-tablet3.jpg">
+              <source media="(min-width: 801px)" srcset="./images/shop-item-desk3.jpg">
+              <img src="./images/shop-item-desk3.jpg" alt="Рамка для украшений">
+            </picture>
             <div class="product_content">
               <h4 class="product_title">Шестиугольная рамка</h4>
               <p class="product_text">

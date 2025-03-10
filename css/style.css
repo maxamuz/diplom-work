@@ -245,6 +245,12 @@ body {
   color: #b59f5b;
 }
 
+.trend_title_content {
+  display: block;
+  max-height: 120px;
+  overflow: auto;
+}
+
 /* Стили блока контент*/
 
 .main-content {

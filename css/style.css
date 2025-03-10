@@ -139,6 +139,11 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+.nav-mobile {
+  display: none;
+}
+
 .nav {
   display: flex;
   gap: 35px;
@@ -249,6 +254,11 @@ body {
   display: block;
   max-height: 120px;
   overflow: auto;
+  scrollbar-width: none;
+}
+
+.trend_title_content::-webkit-scrollbar {
+  display: none; /* Для Chrome/Safari/Edge */
 }
 
 /* Стили блока контент*/
@@ -915,6 +925,10 @@ a.tems-title-list-item-link {
 
   .nav {
     display: none;
+  }
+
+  .nav-mobile {
+    display: block;
   }
 
   .header-title {

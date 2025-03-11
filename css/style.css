@@ -1029,7 +1029,7 @@ a.tems-title-list-item-link {
     position: relative;
   }
 
-  .article:nth-child(-n+4)::after {
+  .article:nth-child(-n + 4)::after {
     content: "";
     height: 3px;
     width: 92%;
@@ -1122,5 +1122,89 @@ a.tems-title-list-item-link {
 }
 
 @media screen and (max-width: 640px) {
-  /* Стили */
+  .container {
+    max-width: 330px;
+  }
+
+  .logo-container {
+    background-image: url(../images/banner-mobile.jpg);
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-title {
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.6;
+    margin: 60px auto 0;
+  }
+
+  .logo-img {
+    display: none;
+  }
+
+  .logo-img-mobile {
+    width: 130px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .menu {
+    margin-left: 270px;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+
+  .trends {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    flex-direction: column;
+  }
+
+  .trend {
+    width: 100%;
+  }
+
+  .main-content {
+    width: 330px;
+  }
+
+  .content {
+    display: flex;
+    margin-top: 62px;
+    flex-direction: column;
+  }
+
+  .article {
+    flex-direction: column;
+  }
+
+  .article-img {
+    max-width: 330px;
+  }
+
+  .aside-block {
+    width: 100%;
+    margin: 0;
+  }
+
+  .products {
+    flex-direction: column;
+  }
+
+  .product {
+    width: 100%;
+  }
 }

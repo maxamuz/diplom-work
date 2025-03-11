@@ -1128,6 +1128,7 @@ a.tems-title-list-item-link {
 
   .logo-container {
     background-image: url(../images/banner-mobile.jpg);
+    height: 670px;
   }
 
   .header-container {
@@ -1143,7 +1144,8 @@ a.tems-title-list-item-link {
     font-weight: bold;
     color: #fff;
     line-height: 1.6;
-    margin: 60px auto 0;
+    margin: auto;
+    margin-top: 20%;
   }
 
   .logo-img {
@@ -1152,6 +1154,7 @@ a.tems-title-list-item-link {
 
   .logo-img-mobile {
     width: 130px;
+    margin-top: 130%;
   }
 
   .nav {

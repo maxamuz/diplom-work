@@ -1025,13 +1025,18 @@ a.tems-title-list-item-link {
     position: relative;
   }
 
-  .excerpt:nth-child(-n+3)::after {
+  .article {
+    position: relative;
+  }
+
+  .article:nth-child(-n+4)::after {
     content: "";
     height: 3px;
-    width: 100%;
+    width: 92%;
     position: absolute;
-    top: 83px;
-    background-color: #b59f5b;
+    display: block;
+    bottom: -19px;
+    background-color: #f4f7f6;
     display: block;
   }
 

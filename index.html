@@ -27,7 +27,10 @@
             </div>
           </nav>
           <a href="/index.html"
-            ><img class="logo-img-mobile" src="./svg/noemi-logo.svg" alt="Логотип"
+            ><img
+              class="logo-img-mobile"
+              src="./svg/noemi-logo.svg"
+              alt="Логотип"
           /></a>
         </div>
         <h1 class="header-title">Блог о творчестве, спорте, и образе жизни</h1>
@@ -37,11 +40,17 @@
       <h2 class="trends_title">Сейчас в тренде</h2>
       <div class="trends">
         <div class="trend">
-          <img
-            src="./images/trend1.jpg"
-            alt="Сад на подоконнике"
-            class="trend_bg"
-          />
+          <picture class="trend_bg">
+            <source
+              media="(max-width: 360px)"
+              srcset="./images/trend-mobile.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="cropped-medium-image.jpg"
+            />
+            <img src="./images/trend2.jpg" alt="Сад на подоконнике" />
+          </picture>
           <div class="trend_content">
             <ul class="trend_tag">
               <li class="trend_tag_item">
@@ -52,16 +61,27 @@
               </li>
             </ul>
             <h4 class="trend_title">
-              <a class="trend_title_content" href="#">Сейчас в тренде: сад на подоконнике</a>
+              <a class="trend_title_content" href="#"
+                >Сейчас в тренде: сад на подоконнике</a
+              >
             </h4>
           </div>
         </div>
         <div class="trend">
-          <img
-            src="./images/trend2.jpg"
-            alt="Сыры на красивых картинках из интернета"
-            class="trend_bg"
-          />
+          <picture class="trend_bg">
+            <source
+              media="(max-width: 360px)"
+              srcset="./images/trend-mobile2.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="cropped-medium-image.jpg"
+            />
+            <img
+              src="./images/trend2.jpg"
+              alt="Сыры на красивых картинках из интернета"
+            />
+          </picture>
           <div class="trend_content">
             <ul class="trend_tag">
               <li class="trend_tag_item">
@@ -76,11 +96,17 @@
           </div>
         </div>
         <div class="trend">
-          <img
-            src="./images/trend3.jpg"
-            alt="Первый поход в горы"
-            class="trend_bg"
-          />
+          <picture class="trend_bg">
+            <source
+              media="(max-width: 360px)"
+              srcset="./images/trend-mobile3.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="cropped-medium-image.jpg"
+            />
+            <img src="./images/trend2.jpg" alt="Первый поход в горы" />
+          </picture>
           <div class="trend_content">
             <ul class="trend_tag">
               <li class="trend_tag_item">
@@ -91,16 +117,24 @@
               </li>
             </ul>
             <h4 class="trend_title">
-              <a class="trend_title_content" href="#">Собираемся в первый поход в горы</a>
+              <a class="trend_title_content" href="#"
+                >Собираемся в первый поход в горы</a
+              >
             </h4>
           </div>
         </div>
         <div class="trend">
-          <img
-            src="./images/trend4.jpg"
-            alt="Лимоны в корзине"
-            class="trend_bg"
-          />
+          <picture class="trend_bg">
+            <source
+              media="(max-width: 360px)"
+              srcset="./images/trend-mobile4.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="cropped-medium-image.jpg"
+            />
+            <img src="./images/trend2.jpg" alt="Лимоны в корзине" />
+          </picture>
           <div class="trend_content">
             <ul class="trend_tag">
               <li class="trend_tag_item">
@@ -111,7 +145,9 @@
               </li>
             </ul>
             <h4 class="trend_title">
-              <a class="trend_title_content" href="#">Сейчас в тренде: сколько витамина с в лимонах</a>
+              <a class="trend_title_content" href="#"
+                >Сейчас в тренде: сколько витамина с в лимонах</a
+              >
             </h4>
           </div>
         </div>

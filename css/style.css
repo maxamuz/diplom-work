@@ -1128,7 +1128,8 @@ a.tems-title-list-item-link {
 
   .logo-container {
     background-image: url(../images/banner-mobile.jpg);
-    height: 670px;
+    height: 640px;
+    width: auto;
   }
 
   .header-container {
@@ -1140,12 +1141,12 @@ a.tems-title-list-item-link {
     text-align: center;
     text-transform: uppercase;
     width: 300px;
-    font-size: 15px;
+    font-size: 26px;
     font-weight: bold;
     color: #fff;
-    line-height: 1.6;
+    line-height: 1.4;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
   .logo-img {
@@ -1153,8 +1154,8 @@ a.tems-title-list-item-link {
   }
 
   .logo-img-mobile {
-    width: 130px;
-    margin-top: 130%;
+    width: 268px;
+    margin-top: 64%;
   }
 
   .nav {
@@ -1162,11 +1163,21 @@ a.tems-title-list-item-link {
   }
 
   .menu {
-    margin-left: 270px;
+    margin-left: 303px;
   }
 
   .nav-mobile {
     display: block;
+    padding-top: 3px;
+  }
+
+  .trends_title {
+    font-size: 16px;
+    padding: 38px 0;
+  }
+
+  .trends_title::after {
+    margin: 8px auto;
   }
 
   .trends {
@@ -1180,27 +1191,105 @@ a.tems-title-list-item-link {
     width: 100%;
   }
 
+  .trend_content {
+    bottom: 15px;
+    border: 3px solid #b59f5b;
+    padding: 25px;
+    margin: 0 17px;
+  }
+
+  .trend_tag {
+    margin-left: 0;
+    padding-top: 0;
+  }
+
+  .trend_title {
+    font-size: 16px;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
   .main-content {
     width: 330px;
   }
 
   .content {
     display: flex;
-    margin-top: 62px;
+    margin-top: 37px;
     flex-direction: column;
   }
 
   .article {
     flex-direction: column;
+    margin-bottom: 61px;
   }
 
   .article-img {
     max-width: 330px;
   }
 
+  .article-content {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .article-header {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .article-footer {
+    margin-bottom: 15px;
+  }
+
+  .excerpt {
+    font-size: 14px;
+    line-height: normal;
+  }
+
   .aside-block {
-    width: 100%;
+    max-width: 100%;
     margin: 0;
+    margin-top: 10px;
+  }
+
+  .aside-title {
+    top: -4px;
+    left: 0px;
+    margin-bottom: 27px;
+    font-size: 16px;
+  }
+
+  .aside-title::after {
+    top: 8px;
+    left: 133px;
+  }
+
+  .subscribe-block {
+    margin-top: 10px;
+  }
+
+  .subscribe-title {
+    top: 4px;
+    right: 2px;
+    margin-bottom: 39px;
+    font-size: 16px;
+  }
+
+  .subscribe-title::after {
+    top: 32px;
+    left: 133px;
+}
+
+  .new-posts {
+    margin-bottom: 18px;
+    min-width: 324px;
+  }
+
+  .search-block-form-input {
+    padding: 16px 37px;
+    width: 100%;
   }
 
   .products {

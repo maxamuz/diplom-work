@@ -126,13 +126,16 @@ body {
   background-repeat: no-repeat;
   padding: 28px 0 130px;
 }
+
 .container {
   max-width: 1175px;
   margin: 0 auto;
 }
+
 .logo-img {
   width: 179px;
 }
+
 .header-container {
   display: flex;
   flex-wrap: wrap;
@@ -141,6 +144,10 @@ body {
 }
 
 .nav-mobile {
+  display: none;
+}
+
+.logo-img-mobile-link {
   display: none;
 }
 
@@ -939,6 +946,10 @@ a.tems-title-list-item-link {
     display: none;
   }
 
+  .logo-img-mobile-link {
+    display: none;
+  }
+
   .nav-mobile {
     display: block;
   }
@@ -1153,6 +1164,10 @@ a.tems-title-list-item-link {
     display: none;
   }
 
+  .logo-img-mobile-link {
+    display: block;
+  }
+
   .logo-img-mobile {
     width: 268px;
     margin-top: 64%;
@@ -1217,6 +1232,7 @@ a.tems-title-list-item-link {
     display: flex;
     margin-top: 37px;
     flex-direction: column;
+    margin-bottom: 46px;
   }
 
   .article {
@@ -1280,7 +1296,45 @@ a.tems-title-list-item-link {
   .subscribe-title::after {
     top: 32px;
     left: 133px;
-}
+  }
+
+  .subscribe-block-buttom {
+    margin-top: -6px;
+  }
+
+  .tags-section {
+    margin-top: 34px;
+  }
+
+  .tags-title {
+    margin-bottom: 37px;
+    font-size: 16px;
+  }
+
+  .tags-title::after {
+    top: 31px;
+    left: 133px;
+  }
+
+  .tems-section {
+    margin-top: 33px;
+  }
+
+  .tems-title {
+    right: 1px;
+    margin-bottom: 26px;
+    font-size: 16px;
+  }
+
+  .tems-title::after {
+    top: 30px;
+    left: 133px;
+  }
+
+  .tems-title-list-item {
+    padding: 13px 0;
+    font-size: 14px;
+  }
 
   .new-posts {
     margin-bottom: 18px;
@@ -1292,11 +1346,50 @@ a.tems-title-list-item-link {
     width: 100%;
   }
 
+  .products_container {
+    margin-bottom: 37px;
+  }
+
   .products {
     flex-direction: column;
+    gap: 24px;
   }
 
   .product {
     width: 100%;
   }
+
+  .products_title {
+    font-size: 16px;
+    padding-bottom: 17px;
+  }
+
+  .products_title::after {
+    margin: 11px auto;
+  }
+
+  .product_content {
+    border: 3px solid #b59f5b;
+    padding: 30px 18px;
+    padding-bottom: 23px;
+    margin-top: 48px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .product_title {
+    padding-top: 19px;
+    font-size: 17px;
+  }
+
+  .container-footer {
+    background-color: #f4f7f6;
+    margin-bottom: 33px;
+  }
+
+  .copyright-block {
+    padding-left: 8px;
+}
 }

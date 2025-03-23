@@ -15,12 +15,14 @@
           /></a>
           <nav class="menu">
             <ul class="nav">
-              <li><a class="nav-link" href="#">Главная</a></li>
-              <li><a class="nav-link" href="#">Посты</a></li>
-              <li><a class="nav-link" href="#">Статьи</a></li>
-              <li><a class="nav-link" href="#">Теги</a></li>
-              <li><a class="nav-link" href="#">Темы</a></li>
-              <li><a class="nav-link" href="#">Контакты</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Главная</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Посты</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Статьи</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Теги</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Темы</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
             </ul>
             <div class="nav-mobile">
               <img src="./images/btn-menu.png" alt="" />
@@ -36,11 +38,11 @@
         <h1 class="header-title">Блог о творчестве, спорте, и образе жизни</h1>
       </div>
     </header>
-    <div class="trends_container">
-      <h2 class="trends_title">Сейчас в тренде</h2>
+    <div class="trends-container">
+      <h2 class="trends-title">Сейчас в тренде</h2>
       <div class="trends">
-        <div class="trend">
-          <picture class="trend_bg">
+        <div class="trend trend-bg-1">
+          <!-- <picture class="trend-bg">
             <source
               media="(max-width: 360px)"
               srcset="./images/trend-mobile.jpg"
@@ -50,25 +52,25 @@
               srcset="./images/trend-table.jpg"
             />
             <img src="./images/trend1.jpg" alt="Сад на подоконнике" />
-          </picture>
-          <div class="trend_content">
-            <ul class="trend_tag">
-              <li class="trend_tag_item">
+          </picture> -->
+          <div class="trend-content">
+            <ul class="trend-tag">
+              <li class="trend-tag-item">
                 <a href="#">Lifestyle</a>
               </li>
-              <li class="trend_tag_item">
+              <li class="trend-tag-item">
                 <a href="#">Interior</a>
               </li>
             </ul>
-            <h4 class="trend_title">
-              <a class="trend_title_content" href="#"
-                >Сейчас в тренде: сад на подоконнике</a
+            <h4 class="trend-title">
+              <a class="trend-title-content" href="#"
+                >Сейчас в тренде: сад на подоконнике </a
               >
             </h4>
           </div>
         </div>
-        <div class="trend">
-          <picture class="trend_bg">
+        <div class="trend trend-bg-2">
+          <!-- <picture class="trend-bg">
             <source
               media="(max-width: 360px)"
               srcset="./images/trend-mobile2.jpg"
@@ -81,22 +83,22 @@
               src="./images/trend2.jpg"
               alt="Сыры на красивых картинках из интернета"
             />
-          </picture>
-          <div class="trend_content">
-            <ul class="trend_tag">
-              <li class="trend_tag_item">
+          </picture> -->
+          <div class="trend-content">
+            <ul class="trend-tag">
+              <li class="trend-tag-item">
                 <a href="#">Food</a>
               </li>
             </ul>
-            <h4 class="trend_title">
-              <a class="trend_title_content" href="#"
+            <h4 class="trend-title">
+              <a class="trend-title-content" href="#"
                 >Сыры на красивых картинках из интернета: какие они на вкус?</a
               >
             </h4>
           </div>
         </div>
-        <div class="trend">
-          <picture class="trend_bg">
+        <div class="trend trend-bg-3">
+          <!-- <picture class="trend-bg">
             <source
               media="(max-width: 360px)"
               srcset="./images/trend-mobile3.jpg"
@@ -106,25 +108,25 @@
               srcset="./images/trend-table3.jpg"
             />
             <img src="./images/trend3.jpg" alt="Первый поход в горы" />
-          </picture>
-          <div class="trend_content">
-            <ul class="trend_tag">
-              <li class="trend_tag_item">
+          </picture> -->
+          <div class="trend-content">
+            <ul class="trend-tag">
+              <li class="trend-tag-item">
                 <a href="#">Lifestyle</a>
               </li>
-              <li class="trend_tag_item">
+              <li class="trend-tag-item">
                 <a href="#">Travel</a>
               </li>
             </ul>
-            <h4 class="trend_title">
-              <a class="trend_title_content" href="#"
+            <h4 class="trend-title">
+              <a class="trend-title-content" href="#"
                 >Собираемся в первый поход в горы</a
               >
             </h4>
           </div>
         </div>
-        <div class="trend">
-          <picture class="trend_bg">
+        <div class="trend trend-bg-4">
+          <!-- <picture class="trend-bg">
             <source
               media="(max-width: 360px)"
               srcset="./images/trend-mobile4.jpg"
@@ -134,18 +136,18 @@
               srcset="./images/trend-table4.jpg"
             />
             <img src="./images/trend4.jpg" alt="Лимоны в корзине" />
-          </picture>
-          <div class="trend_content">
-            <ul class="trend_tag">
-              <li class="trend_tag_item">
+          </picture> -->
+          <div class="trend-content">
+            <ul class="trend-tag">
+              <li class="trend-tag-item">
                 <a href="#">Food</a>
               </li>
-              <li class="trend_tag_item">
+              <li class="trend-tag-item">
                 <a href="">Health</a>
               </li>
             </ul>
-            <h4 class="trend_title">
-              <a class="trend_title_content" href="#"
+            <h4 class="trend-title">
+              <a class="trend-title-content" href="#"
                 >Сейчас в тренде: сколько витамина с в лимонах</a
               >
             </h4>
@@ -458,11 +460,11 @@
       </div>
     </div>
     <div class="container">
-      <div class="products_container">
-        <h2 class="products_title">Наши изделия</h2>
+      <div class="products-container">
+        <h2 class="products-title">Наши изделия</h2>
         <div class="products">
           <div class="product">
-            <picture class="product_bg">
+            <picture class="product-bg">
               <source
                 media="(max-width: 480px)"
                 srcset="./images/shop-item-mobile1.jpg"
@@ -477,23 +479,23 @@
               />
               <img src="./images/shop-item-desk1.jpg" alt="Подушка с принтом" />
             </picture>
-            <div class="product_content">
-              <h4 class="product_title">Подушки на диван</h4>
-              <p class="product_text">
+            <div class="product-content">
+              <h4 class="product-title">Подушки на диван</h4>
+              <p class="product-text">
                 Набор из двух подушек с модными принтами.
                 <a href="#">Видео о создании здесь</a>.
               </p>
-              <div class="product_block">
-                <div class="product_price_block">
-                  <span class="old_price">1000 ₽</span>
+              <div class="product-block">
+                <div class="product-price-block">
+                  <span class="old-price">1000 ₽</span>
                   <span class="price">800 ₽</span>
                 </div>
-                <button class="product_button">В магазин</button>
+                <button class="product-button">В магазин</button>
               </div>
             </div>
           </div>
           <div class="product">
-            <picture class="product_bg">
+            <picture class="product-bg">
               <source
                 media="(max-width: 480px)"
                 srcset="./images/shop-item-mobile2.jpg"
@@ -511,23 +513,23 @@
                 alt="Мягкая игрушка: заяц"
               />
             </picture>
-            <div class="product_content">
-              <h4 class="product_title">Кукла «зайчик»</h4>
-              <p class="product_text">
+            <div class="product-content">
+              <h4 class="product-title">Кукла «зайчик»</h4>
+              <p class="product-text">
                 Интерьерная рукодельная кукла «Зайчик», созданию которой
                 посвящена <a href="#">весенняя серия постов</a> в блоге и
-                несколько подкастов.
+                несколько подкастов. 
               </p>
-              <div class="product_block">
-                <div class="product_price_block">
+              <div class="product-block">
+                <div class="product-price-block">
                   <span class="price">3500 ₽</span>
                 </div>
-                <button class="product_button">В магазин</button>
+                <button class="product-button">В магазин</button>
               </div>
             </div>
           </div>
           <div class="product">
-            <picture class="product_bg">
+            <picture class="product-bg">
               <source
                 media="(max-width: 480px)"
                 srcset="./images/shop-item-mobile3.jpg"
@@ -545,20 +547,20 @@
                 alt="Рамка для украшений"
               />
             </picture>
-            <div class="product_content">
-              <h4 class="product_title">Шестиугольная рамка</h4>
-              <p class="product_text">
+            <div class="product-content">
+              <h4 class="product-title">Шестиугольная рамка</h4>
+              <p class="product-text">
                 Необычная рамка для украшения дома из видео
                 <a href="#"
                   >«Как сделать рамку из подручных средств за 30 минут»</a
                 >
               </p>
-              <div class="product_block">
-                <div class="product_price_block">
-                  <span class="old_price">800 ₽</span>
+              <div class="product-block">
+                <div class="product-price-block">
+                  <span class="old-price">800 ₽</span>
                   <span class="price">400 ₽</span>
                 </div>
-                <button class="product_button">В магазин</button>
+                <button class="product-button">В магазин</button>
               </div>
             </div>
           </div>
@@ -596,7 +598,7 @@
           class="close-btn"
           aria-label="Закрыть окно"
         ></button>
-        <h1 class="form-title">Ваш фидбек</h1>
+        <h2 class="form-title">Ваш фидбек</h2>
 
         <div class="form-group">
           <label class="form-label" for="frequency"

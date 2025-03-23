@@ -133,7 +133,8 @@ body {
 }
 
 .logo-img {
-  width: 179px;
+  width: 188px;
+  height: 41px;
 }
 
 .header-container {
@@ -153,11 +154,12 @@ body {
 
 .nav {
   display: flex;
-  gap: 35px;
+  gap: 36px;
   color: #fff;
   text-transform: uppercase;
   font-size: 13px;
 }
+
 .nav-link:hover {
   text-decoration: underline;
 }
@@ -169,7 +171,7 @@ body {
   font-weight: bold;
   color: #fff;
   line-height: 1.6;
-  margin: 106px auto 0;
+  margin: 107px auto 0;
 }
 
 /* Стили блока тренды*/
@@ -181,7 +183,7 @@ body {
   margin-top: -28px;
 }
 
-.trends_title {
+.trends-title {
   text-align: center;
   position: relative;
   text-transform: uppercase;
@@ -190,7 +192,7 @@ body {
   padding: 55px 0;
 }
 
-.trends_title::after {
+.trends-title::after {
   content: "";
   height: 2px;
   width: 64px;
@@ -203,68 +205,79 @@ body {
 .trend {
   position: relative;
   width: 25%;
+  min-height: 320px;
+  display: flex;
+  align-items: flex-end;
+  padding: 15px 23px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  /* flex-direction: column; */
 }
 
-.trend::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #1d1717c2;
-  position: absolute;
+.trend-bg-1 {
+  background-image: url(../images/trend1.jpg);
 }
 
-.trend_bg {
-  width: 100%;
+.trend-bg-2 {
+  background-image: url(../images/trend2.jpg);
 }
 
-.trend_content {
-  position: absolute;
+.trend-bg-3 {
+  background-image: url(../images/trend3.jpg);
+}
+
+.trend-bg-4 {
+  background-image: url(../images/trend4.jpg);
+}
+
+.trend-content {
+  /* position: absolute;   */
   bottom: 15px;
   color: #fff;
   border: 2px solid #b59f5b;
   text-transform: uppercase;
   font-weight: bold;
   padding: 20px;
-  margin: 0 20px;
 }
 
-.trend_tag {
+.trend-tag {
   display: flex;
   font-weight: bold;
   color: #b59f5b;
   font-size: 14px;
-  margin-bottom: 8px;
-  margin-left: 23px;
-  padding-top: 14px;
+  margin-bottom: 4px;
+  margin-left: 13px;
+  padding-top: 11px;
 }
 
-.trend_tag_item {
+.trend-tag-item {
   margin-right: 20px;
 }
 
-.trend_tag_item:hover {
+.trend-tag-item:hover {
   text-decoration: underline;
 }
 
-.trend_title {
+.trend-title {
   font-size: 20px;
   color: #fff;
   padding-left: 20px;
-  padding-bottom: 7px;
+  padding-bottom: 11px;
 }
 
-.trend_title:hover {
+.trend-title:hover {
   color: #b59f5b;
 }
 
-.trend_title_content {
+/* .trend-title-content {
   display: block;
   max-height: 120px;
   overflow: auto;
   scrollbar-width: none;
-}
+} */
 
-.trend_title_content::-webkit-scrollbar {
+.trend-title-content::-webkit-scrollbar {
   display: none; /* Для Chrome/Safari/Edge */
 }
 
@@ -561,11 +574,11 @@ a.tems-title-list-item-link {
 
 /* Стили Блока Наши Изделия*/
 
-.products_container {
+.products-container {
   margin-bottom: 64px;
 }
 
-.products_title {
+.products-title {
   text-align: center;
   position: relative;
   text-transform: uppercase;
@@ -574,7 +587,7 @@ a.tems-title-list-item-link {
   padding-bottom: 28px;
 }
 
-.products_title::after {
+.products-title::after {
   content: "";
   height: 2px;
   width: 64px;
@@ -595,13 +608,13 @@ a.tems-title-list-item-link {
   flex-direction: column;
 }
 
-.product_bg {
+.product-bg {
   display: block;
   margin: 0 auto;
   height: 204px;
 }
 
-.product_content {
+.product-content {
   border: 3px solid #b59f5b;
   padding: 30px 20px;
   margin-top: -18px;
@@ -611,38 +624,38 @@ a.tems-title-list-item-link {
   flex-grow: 1;
 }
 
-.product_title {
+.product-title {
   text-transform: uppercase;
   font-weight: bold;
   padding-top: 12px;
   font-size: 20px;
 }
 
-.product_text {
+.product-text {
   font-size: 15px;
   line-height: 1.6;
 }
 
-.product_price_block {
+.product-price-block {
   display: flex;
   flex-direction: column;
   font-weight: bold;
   font-size: 20px;
 }
 
-.old_price {
+.old-price {
   text-decoration: line-through;
   font-size: 14px;
 }
 
-.product_block {
+.product-block {
   display: flex;
   align-items: end;
   margin-top: 20px;
   justify-content: space-between;
 }
 
-.product_button {
+.product-button {
   background-color: #b59f5b;
   color: #fff;
   font-weight: bold;
@@ -651,7 +664,7 @@ a.tems-title-list-item-link {
   padding: 16px 30px;
 }
 
-.product_button:hover {
+.product-button:hover {
   background-color: #323232;
 }
 
@@ -964,35 +977,35 @@ a.tems-title-list-item-link {
     width: 49%;
   }
 
-  .trends_title {
+  .trends-title {
     font-size: 18px;
     padding: 46px 0;
   }
 
-  .trends_title::after {
+  .trends-title::after {
     margin: 9px auto;
   }
 
-  .trend_bg {
+  .trend-bg {
     width: 384px;
     height: 249px;
   }
 
-  .trend_content {
+  .trend-content {
     padding: 12px 20px;
   }
 
-  .trend_tag {
+  .trend-tag {
     margin-left: 6px;
   }
 
-  .trend_title {
+  .trend-title {
     font-size: 17px;
     padding-left: 6px;
     padding-bottom: 21px;
   }
 
-  .trend_title_content {
+  .trend-title-content {
     line-height: 22px;
   }
 
@@ -1089,7 +1102,7 @@ a.tems-title-list-item-link {
     margin-top: 52px;
   }
 
-  .products_container {
+  .products-container {
     margin-bottom: 60px;
   }
 
@@ -1106,20 +1119,20 @@ a.tems-title-list-item-link {
     margin-top: 15px;
   }
 
-  .products_title {
+  .products-title {
     font-size: 18px;
     padding-bottom: 25px;
   }
 
-  .products_title::after {
+  .products-title::after {
     margin: 11px auto;
     margin-bottom: 0;
   }
-  .product_content {
+  .product-content {
     padding: 10px 20px;
     margin-top: -11px;
   }
-  .product_title {
+  .product-title {
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 39px;
@@ -1186,12 +1199,12 @@ a.tems-title-list-item-link {
     padding-top: 3px;
   }
 
-  .trends_title {
+  .trends-title {
     font-size: 16px;
     padding: 38px 0;
   }
 
-  .trends_title::after {
+  .trends-title::after {
     margin: 8px auto;
   }
 
@@ -1206,19 +1219,19 @@ a.tems-title-list-item-link {
     width: 100%;
   }
 
-  .trend_content {
+  .trend-content {
     bottom: 15px;
     border: 3px solid #b59f5b;
     padding: 25px;
     margin: 0 17px;
   }
 
-  .trend_tag {
+  .trend-tag {
     margin-left: 0;
     padding-top: 0;
   }
 
-  .trend_title {
+  .trend-title {
     font-size: 16px;
     padding-left: 0;
     padding-bottom: 0;
@@ -1346,7 +1359,7 @@ a.tems-title-list-item-link {
     width: 100%;
   }
 
-  .products_container {
+  .products-container {
     margin-bottom: 37px;
   }
 
@@ -1359,16 +1372,16 @@ a.tems-title-list-item-link {
     width: 100%;
   }
 
-  .products_title {
+  .products-title {
     font-size: 16px;
     padding-bottom: 17px;
   }
 
-  .products_title::after {
+  .products-title::after {
     margin: 11px auto;
   }
 
-  .product_content {
+  .product-content {
     border: 3px solid #b59f5b;
     padding: 30px 18px;
     padding-bottom: 23px;
@@ -1379,7 +1392,7 @@ a.tems-title-list-item-link {
     flex-grow: 1;
   }
 
-  .product_title {
+  .product-title {
     padding-top: 19px;
     font-size: 17px;
   }
@@ -1391,5 +1404,5 @@ a.tems-title-list-item-link {
 
   .copyright-block {
     padding-left: 8px;
-}
+  }
 }

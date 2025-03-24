@@ -166,7 +166,7 @@ body {
 .header-title {
   text-align: center;
   text-transform: uppercase;
-  width: 700px;
+  max-width: 700px;
   font-size: 45px;
   font-weight: bold;
   color: #fff;
@@ -198,7 +198,7 @@ body {
   width: 64px;
   background-color: #b59f5b;
   display: block;
-  margin: 12px auto;
+  margin: 10px auto;
   margin-bottom: 0;
 }
 
@@ -232,13 +232,11 @@ body {
 }
 
 .trend-content {
-  /* position: absolute;   */
-  bottom: 15px;
   color: #fff;
   border: 2px solid #b59f5b;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 20px;
+  padding: 22px;
 }
 
 .trend-tag {
@@ -247,7 +245,7 @@ body {
   color: #b59f5b;
   font-size: 14px;
   margin-bottom: 4px;
-  margin-left: 13px;
+  margin-left: 10px;
   padding-top: 11px;
 }
 
@@ -262,7 +260,7 @@ body {
 .trend-title {
   font-size: 20px;
   color: #fff;
-  padding-left: 20px;
+  padding-left: 8px;
   padding-bottom: 11px;
 }
 
@@ -352,7 +350,7 @@ body {
 
 .aside-block {
   max-width: 270px;
-  margin-left: 130px;
+  margin-left: 133px;
 }
 .new-posts {
   display: flex;
@@ -366,7 +364,7 @@ body {
 .aside-title {
   text-align: center;
   position: relative;
-  top: -2px;
+  top: -3px;
   left: 3px;
   margin-bottom: 33px;
   text-transform: uppercase;
@@ -439,9 +437,10 @@ body {
 /* Subscribe block */
 
 .subscribe-block {
-  margin-top: 54px;
+  margin-top: 31px;
 }
 .subscribe-block-form-inpit {
+  margin-top: 25px;
   padding: 16px 17px;
   width: 100%;
   background-color: #f4f7f6;
@@ -453,7 +452,7 @@ body {
 }
 
 .subscribe-block-buttom {
-  margin-top: 20px;
+  margin-top: -4px;
   background-color: #b59f5b;
   color: #fff;
   font-weight: bold;
@@ -470,7 +469,7 @@ body {
   position: relative;
   top: 4px;
   right: 3px;
-  margin-bottom: 35px;
+  margin-bottom: 12px;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
@@ -532,7 +531,7 @@ a.tags-item-link {
 /* Tems block */
 
 .tems-section {
-  margin-top: 49px;
+  margin-top: 52px;
 }
 .tems-title {
   text-align: center;
@@ -575,12 +574,13 @@ a.tems-title-list-item-link {
 /* Стили Блока Наши Изделия*/
 
 .products-container {
-  margin-bottom: 64px;
+  margin-bottom: 62px;
 }
 
 .products-title {
   text-align: center;
   position: relative;
+  top: -4px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
@@ -616,8 +616,8 @@ a.tems-title-list-item-link {
 
 .product-content {
   border: 3px solid #b59f5b;
-  padding: 30px 20px;
-  margin-top: -18px;
+  padding: 22px 20px;
+  margin-top: -34px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -627,7 +627,7 @@ a.tems-title-list-item-link {
 .product-title {
   text-transform: uppercase;
   font-weight: bold;
-  padding-top: 12px;
+  padding-top: 24px;
   font-size: 20px;
 }
 
@@ -977,15 +977,6 @@ a.tems-title-list-item-link {
     width: 49%;
   }
 
-  .trends-title {
-    font-size: 18px;
-    padding: 46px 0;
-  }
-
-  .trends-title::after {
-    margin: 9px auto;
-  }
-
   .trend-bg {
     width: 384px;
     height: 249px;
@@ -1199,14 +1190,7 @@ a.tems-title-list-item-link {
     padding-top: 3px;
   }
 
-  .trends-title {
-    font-size: 16px;
-    padding: 38px 0;
-  }
-
-  .trends-title::after {
-    margin: 8px auto;
-  }
+  
 
   .trends {
     display: flex;

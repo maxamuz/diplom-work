@@ -1195,24 +1195,28 @@ a.tems-title-list-item-link {
     padding-top: 3px;
   }
 
-  
+  .trends-title {
+    font-size: 16px;
+    padding: 37px 0;
+}
 
   .trends {
     display: flex;
     justify-content: space-around;
     gap: 5px;
     flex-direction: column;
+    margin-top: -13px;
   }
 
   .trend {
     width: 100%;
+    min-height: 230px;
   }
 
   .trend-content {
     bottom: 15px;
     border: 3px solid #b59f5b;
     padding: 25px;
-    margin: 0 17px;
   }
 
   .trend-tag {
@@ -1267,8 +1271,7 @@ a.tems-title-list-item-link {
   }
 
   .aside-block {
-    max-width: 100%;
-    margin: 0;
+    margin: 0 auto;
     margin-top: 10px;
   }
 

@@ -1214,13 +1214,12 @@ a.tems-title-list-item-link {
   }
 
   .trend-content {
-    bottom: 15px;
     border: 3px solid #b59f5b;
-    padding: 25px;
+    padding: 27px;
   }
 
   .trend-tag {
-    margin-left: 0;
+    margin-left: -15px;
     padding-top: 0;
   }
 
@@ -1238,7 +1237,7 @@ a.tems-title-list-item-link {
     display: flex;
     margin-top: 37px;
     flex-direction: column;
-    margin-bottom: 46px;
+    margin-bottom: 48px;
   }
 
   .article {
@@ -1250,13 +1249,17 @@ a.tems-title-list-item-link {
     max-width: 330px;
   }
 
+  .article-tag {
+    margin-bottom: 11px;
+  }
+
   .article-content {
     margin-left: 0px;
     margin-top: 10px;
   }
 
   .article-header {
-    margin-bottom: 16px;
+    margin-bottom: 11px;
     font-size: 16px;
     line-height: 1.4;
   }
@@ -1290,6 +1293,10 @@ a.tems-title-list-item-link {
 
   .subscribe-block {
     margin-top: 10px;
+  }
+
+  .subscribe-block-form-inpit {
+    margin: 0;
   }
 
   .subscribe-title {

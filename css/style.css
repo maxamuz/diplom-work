@@ -1273,6 +1273,7 @@ a.tems-title-list-item-link {
   .aside-block {
     margin: 0 auto;
     margin-top: 10px;
+    max-width: 100%;
   }
 
   .aside-title {

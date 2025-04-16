@@ -976,10 +976,11 @@ a.tems-title-list-item-link {
   .trends-title {
     font-size: 18px;
     padding: 42px 0;
-}
+  }
 
   .trend {
     width: 49%;
+    min-height: 246px;
   }
 
   .trend-bg {
@@ -1006,7 +1007,7 @@ a.tems-title-list-item-link {
   }
 
   .content {
-    margin-top: 46px;
+    margin-top: 50px;
   }
 
   .article {
@@ -1198,7 +1199,7 @@ a.tems-title-list-item-link {
   .trends-title {
     font-size: 16px;
     padding: 37px 0;
-}
+  }
 
   .trends {
     display: flex;
@@ -1224,7 +1225,7 @@ a.tems-title-list-item-link {
   }
 
   .trend-title {
-    font-size: 16px;
+    font-size: 15px;
     padding-left: 0;
     padding-bottom: 0;
   }
@@ -1360,7 +1361,7 @@ a.tems-title-list-item-link {
   }
 
   .products-container {
-    margin-bottom: 37px;
+    margin-bottom: 48px;
   }
 
   .products {
@@ -1395,6 +1396,10 @@ a.tems-title-list-item-link {
   .product-title {
     padding-top: 19px;
     font-size: 17px;
+  }
+
+  .product-button {
+    padding: 14px 30px;
   }
 
   .container-footer {
